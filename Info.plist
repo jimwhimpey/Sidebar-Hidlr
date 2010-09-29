@@ -59,6 +59,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://static.jimwhimpey.com/bundles/extensions/sidebarhidlr/manifest.plist</string>
 	<key>Website</key>
 	<string>http://jimwhimpey.com</string>
 </dict>

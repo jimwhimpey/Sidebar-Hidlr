@@ -28,12 +28,18 @@
 				<string>hide.js</string>
 			</array>
 		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>hide.css</string>
+		</array>
 		<key>Whitelist</key>
 		<array>
 			<string>http://tumblr.com/dashboard*</string>
 			<string>http://www.tumblr.com/dashboard*</string>
 			<string>http://tumblr.com/tumblelog*</string>
 			<string>http://www.tumblr.com/tumblelog*</string>
+			<string>http://tumblr.com/likes*</string>
+			<string>http://www.tumblr.com/likes*</string>
 		</array>
 	</dict>
 	<key>Description</key>

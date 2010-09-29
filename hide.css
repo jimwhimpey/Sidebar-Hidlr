@@ -1,7 +1,0 @@
-/* Making the content flash less severe */
-#dashboard_controls_radar_media,
-#dashboard_controls_radar_buttons,
-#radar_shadow,
-#dashboard_controls_suggested_blogs,
-#dashboard_controls_suggested_blogs_shadow
-{ display: none !important; }

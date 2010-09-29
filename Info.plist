@@ -28,10 +28,6 @@
 				<string>hide.js</string>
 			</array>
 		</dict>
-		<key>Stylesheets</key>
-		<array>
-			<string>hide.css</string>
-		</array>
 		<key>Whitelist</key>
 		<array>
 			<string>http://tumblr.com/dashboard*</string>

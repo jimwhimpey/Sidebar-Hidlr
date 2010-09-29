@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Jim Whimpey</string>
+	<key>CFBundleDisplayName</key>
+	<string>Sidebar Hidlr</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jimwhimpey.sidebarhidlr</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>hide.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://tumblr.com/dashboard*</string>
+			<string>http://www.tumblr.com/dashboard*</string>
+			<string>http://tumblr.com/tumblelog*</string>
+			<string>http://www.tumblr.com/tumblelog*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Permanently hide Tumblr dashboard sidebar elements</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>tumblr.com</string>
+				<string>www.tumblr.com</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://jimwhimpey.com</string>
+</dict>
+</plist>

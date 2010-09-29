@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script type="text/javascript" charset="utf-8">
+			
+				// Handle the request for settings
+				function handleSettingsRequest(msgEvent) {
+					
+					console.log("In the global");
+					
+					// Get the settings we want and put them in an object
+					var settings = new Object();
+					settings.tumblrTuesday = safari.extension.settings.tumblrtuesday;
+					settings.radar = safari.extension.settings.radar;
+					settings.recommended = safari.extension.settings.recommended;
+					
+					// Send them back to the injected function
+					safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("settings", settings);
+					
+				}
+				
+				// Listen for the request from the injected script
+				safari.application.addEventListener("message", handleSettingsRequest, false);
+			
+		</script>
+		
+	</head>
+	<body></body>
+</html>

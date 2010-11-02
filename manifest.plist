@@ -5,16 +5,16 @@
    <key>Extension Updates</key>
    <array>
      <dict>
-       <key>CFBundleIdentifier</key>
-       <string>com.jimwhimpey.sidebarhidlr</string>
-       <key>Developer Identifier</key>
-       <string>DQTB833N7P</string>
-       <key>CFBundleVersion</key>
-       <string>1</string>
-       <key>CFBundleShortVersionString</key>
-       <string>1.0</string>
-       <key>URL</key>
-       <string>http://static.jimwhimpey.com/bundles/extensions/sidebarhidlr/SidebarHidlr.safariextz</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.jimwhimpey.sidebarhidlr</string>
+				<key>Developer Identifier</key>
+				<string>DQTB833N7P</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.1</string>
+				<key>URL</key>
+				<string>http://static.jimwhimpey.com/bundles/extensions/sidebarhidlr/SidebarHidlr.safariextz</string>
      </dict>
    </array>
 </dict>

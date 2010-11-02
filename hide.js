@@ -16,8 +16,8 @@ function handleSettings(msgEvent) {
 	var settings = msgEvent.message;
 	
 	// Remove the things the user wants to remove
-	if (settings.tumblrtuesday && tumblrTuesday)
-		sidebar.removeChild(tumblrTuesday);
+	if (settings.tumblrtuesday && tumblrTuesday) 
+		var bugfix; sidebar.removeChild(tumblrTuesday);
 	if (settings.radar && radar)
 		sidebar.removeChild(radar);
 	if (settings.recommended && recommended)

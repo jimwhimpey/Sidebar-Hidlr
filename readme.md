@@ -1,0 +1,1 @@
+This was a WebKit browser extension for hiding the dumb sidebar full of crap in Tumblr's sidebar but I failed to update it after Tumblr released a redesign to the dashboard. Maybe one day I'll get back to it.
